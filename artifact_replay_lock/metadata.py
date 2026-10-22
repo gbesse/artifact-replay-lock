@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Verrouiller les entrées et dépendances d’un rejeu par empreintes', 'en': 'Lock replay inputs and dependencies with hashes', 'es': 'Fijar entradas y dependencias de reproducción con huellas'}

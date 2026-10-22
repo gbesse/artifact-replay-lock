@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "artifact-replay-lock"
+version = "0.1.0a1"
+description = "FR: Verrouiller les entrées et dépendances d’un rejeu par empreintes | EN: Lock replay inputs and dependencies with hashes | ES: Fijar entradas y dependencias de reproducción con huellas"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+artifact-replay-lock = "artifact_replay_lock.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["artifact_replay_lock*"]

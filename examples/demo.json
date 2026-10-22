@@ -1,0 +1,9 @@
+{
+  "root": ".",
+  "files": [
+    {
+      "path": "fixture.txt",
+      "expected_sha256": "06b97a4729fec30f58ac0c011f31bffb28183494d7a8646e418198facd59bb1e"
+    }
+  ]
+}
